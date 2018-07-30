@@ -1,3 +1,5 @@
+/*Contact HTML*/
+
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
@@ -216,10 +218,14 @@ body {
     border: 0 none;
   }
   
-@media screen and (max-width: 768px) {
-  background: blue
+  /* Max width sets the property when the element BECOMES that size BY SHRINKING. 
+  Min width sets it for anything that is ABOVE that size by GROWING.*/
+
+@media screen and (max-width: 980px) {
 }
 
-@media screen and (min-width: 768px) {
-  background: blue
-}
+  @media screen and (max-width: 768px) {
+  }
+
+    @media screen and (max-width: 640px) {
+    }
